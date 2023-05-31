@@ -9,64 +9,35 @@
 /* Begin PBXBuildFile section */
 		378A64B42A245BF6001EFB0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64B32A245BF6001EFB0C /* AppDelegate.swift */; };
 		378A64B62A245BF6001EFB0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64B52A245BF6001EFB0C /* SceneDelegate.swift */; };
-		378A64B82A245BF6001EFB0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64B72A245BF6001EFB0C /* ViewController.swift */; };
 		378A64BB2A245BF6001EFB0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378A64B92A245BF6001EFB0C /* Main.storyboard */; };
 		378A64BD2A245BFB001EFB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378A64BC2A245BFB001EFB0C /* Assets.xcassets */; };
-		378A64C02A245BFB001EFB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378A64BE2A245BFB001EFB0C /* LaunchScreen.storyboard */; };
-		378A64CB2A245BFB001EFB0C /* TableCollectionViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64CA2A245BFB001EFB0C /* TableCollectionViewSampleTests.swift */; };
-		378A64D52A245BFB001EFB0C /* TableCollectionViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64D42A245BFB001EFB0C /* TableCollectionViewSampleUITests.swift */; };
-		378A64D72A245BFB001EFB0C /* TableCollectionViewSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64D62A245BFB001EFB0C /* TableCollectionViewSampleUITestsLaunchTests.swift */; };
+		378A64E42A245C5B001EFB0C /* Main_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64E32A245C5B001EFB0C /* Main_ViewController.swift */; };
+		378A64E82A252022001EFB0C /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64E72A252022001EFB0C /* Datasource.swift */; };
+		378A64EB2A252836001EFB0C /* SingleBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64EA2A252836001EFB0C /* SingleBannerCell.swift */; };
+		378A64ED2A252861001EFB0C /* SplitBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64EC2A252861001EFB0C /* SplitBannerCell.swift */; };
+		378A64EF2A25287D001EFB0C /* CollectionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64EE2A25287D001EFB0C /* CollectionsCell.swift */; };
+		378A64F12A265430001EFB0C /* CollectionCellinTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64F02A265430001EFB0C /* CollectionCellinTable.swift */; };
+		378A64F42A26864C001EFB0C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378A64F32A26864C001EFB0C /* Helper.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		378A64C72A245BFB001EFB0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 378A64A82A245BF6001EFB0C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 378A64AF2A245BF6001EFB0C;
-			remoteInfo = TableCollectionViewSample;
-		};
-		378A64D12A245BFB001EFB0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 378A64A82A245BF6001EFB0C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 378A64AF2A245BF6001EFB0C;
-			remoteInfo = TableCollectionViewSample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		378A64B02A245BF6001EFB0C /* TableCollectionViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableCollectionViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378A64B32A245BF6001EFB0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		378A64B52A245BF6001EFB0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		378A64B72A245BF6001EFB0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		378A64BA2A245BF6001EFB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		378A64BC2A245BFB001EFB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		378A64BF2A245BFB001EFB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		378A64C12A245BFB001EFB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		378A64C62A245BFB001EFB0C /* TableCollectionViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableCollectionViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		378A64CA2A245BFB001EFB0C /* TableCollectionViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewSampleTests.swift; sourceTree = "<group>"; };
-		378A64D02A245BFB001EFB0C /* TableCollectionViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableCollectionViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		378A64D42A245BFB001EFB0C /* TableCollectionViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewSampleUITests.swift; sourceTree = "<group>"; };
-		378A64D62A245BFB001EFB0C /* TableCollectionViewSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		378A64E32A245C5B001EFB0C /* Main_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_ViewController.swift; sourceTree = "<group>"; };
+		378A64E72A252022001EFB0C /* Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		378A64EA2A252836001EFB0C /* SingleBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingleBannerCell.swift; path = Tableviewcells/SingleBannerCell.swift; sourceTree = "<group>"; };
+		378A64EC2A252861001EFB0C /* SplitBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplitBannerCell.swift; path = Tableviewcells/SplitBannerCell.swift; sourceTree = "<group>"; };
+		378A64EE2A25287D001EFB0C /* CollectionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionsCell.swift; path = Tableviewcells/CollectionsCell.swift; sourceTree = "<group>"; };
+		378A64F02A265430001EFB0C /* CollectionCellinTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionCellinTable.swift; path = Tableviewcells/CollectionCellinTable.swift; sourceTree = "<group>"; };
+		378A64F32A26864C001EFB0C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		378A64AD2A245BF6001EFB0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		378A64C32A245BFB001EFB0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		378A64CD2A245BFB001EFB0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				378A64B22A245BF6001EFB0C /* TableCollectionViewSample */,
-				378A64C92A245BFB001EFB0C /* TableCollectionViewSampleTests */,
-				378A64D32A245BFB001EFB0C /* TableCollectionViewSampleUITests */,
 				378A64B12A245BF6001EFB0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				378A64B02A245BF6001EFB0C /* TableCollectionViewSample.app */,
-				378A64C62A245BFB001EFB0C /* TableCollectionViewSampleTests.xctest */,
-				378A64D02A245BFB001EFB0C /* TableCollectionViewSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +66,36 @@
 		378A64B22A245BF6001EFB0C /* TableCollectionViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				378A64F22A26841E001EFB0C /* Model */,
+				378A64E92A2527DF001EFB0C /* Cells */,
 				378A64B32A245BF6001EFB0C /* AppDelegate.swift */,
 				378A64B52A245BF6001EFB0C /* SceneDelegate.swift */,
-				378A64B72A245BF6001EFB0C /* ViewController.swift */,
 				378A64B92A245BF6001EFB0C /* Main.storyboard */,
 				378A64BC2A245BFB001EFB0C /* Assets.xcassets */,
-				378A64BE2A245BFB001EFB0C /* LaunchScreen.storyboard */,
 				378A64C12A245BFB001EFB0C /* Info.plist */,
+				378A64E32A245C5B001EFB0C /* Main_ViewController.swift */,
 			);
 			path = TableCollectionViewSample;
 			sourceTree = "<group>";
 		};
-		378A64C92A245BFB001EFB0C /* TableCollectionViewSampleTests */ = {
+		378A64E92A2527DF001EFB0C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				378A64CA2A245BFB001EFB0C /* TableCollectionViewSampleTests.swift */,
+				378A64EA2A252836001EFB0C /* SingleBannerCell.swift */,
+				378A64EC2A252861001EFB0C /* SplitBannerCell.swift */,
+				378A64EE2A25287D001EFB0C /* CollectionsCell.swift */,
+				378A64F02A265430001EFB0C /* CollectionCellinTable.swift */,
 			);
-			path = TableCollectionViewSampleTests;
+			name = Cells;
 			sourceTree = "<group>";
 		};
-		378A64D32A245BFB001EFB0C /* TableCollectionViewSampleUITests */ = {
+		378A64F22A26841E001EFB0C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				378A64D42A245BFB001EFB0C /* TableCollectionViewSampleUITests.swift */,
-				378A64D62A245BFB001EFB0C /* TableCollectionViewSampleUITestsLaunchTests.swift */,
+				378A64E72A252022001EFB0C /* Datasource.swift */,
+				378A64F32A26864C001EFB0C /* Helper.swift */,
 			);
-			path = TableCollectionViewSampleUITests;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +118,6 @@
 			productReference = 378A64B02A245BF6001EFB0C /* TableCollectionViewSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		378A64C52A245BFB001EFB0C /* TableCollectionViewSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 378A64DD2A245BFB001EFB0C /* Build configuration list for PBXNativeTarget "TableCollectionViewSampleTests" */;
-			buildPhases = (
-				378A64C22A245BFB001EFB0C /* Sources */,
-				378A64C32A245BFB001EFB0C /* Frameworks */,
-				378A64C42A245BFB001EFB0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				378A64C82A245BFB001EFB0C /* PBXTargetDependency */,
-			);
-			name = TableCollectionViewSampleTests;
-			productName = TableCollectionViewSampleTests;
-			productReference = 378A64C62A245BFB001EFB0C /* TableCollectionViewSampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		378A64CF2A245BFB001EFB0C /* TableCollectionViewSampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 378A64E02A245BFB001EFB0C /* Build configuration list for PBXNativeTarget "TableCollectionViewSampleUITests" */;
-			buildPhases = (
-				378A64CC2A245BFB001EFB0C /* Sources */,
-				378A64CD2A245BFB001EFB0C /* Frameworks */,
-				378A64CE2A245BFB001EFB0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				378A64D22A245BFB001EFB0C /* PBXTargetDependency */,
-			);
-			name = TableCollectionViewSampleUITests;
-			productName = TableCollectionViewSampleUITests;
-			productReference = 378A64D02A245BFB001EFB0C /* TableCollectionViewSampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +130,6 @@
 				TargetAttributes = {
 					378A64AF2A245BF6001EFB0C = {
 						CreatedOnToolsVersion = 13.3.1;
-					};
-					378A64C52A245BFB001EFB0C = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 378A64AF2A245BF6001EFB0C;
-					};
-					378A64CF2A245BFB001EFB0C = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 378A64AF2A245BF6001EFB0C;
 					};
 				};
 			};
@@ -220,8 +147,6 @@
 			projectRoot = "";
 			targets = (
 				378A64AF2A245BF6001EFB0C /* TableCollectionViewSample */,
-				378A64C52A245BFB001EFB0C /* TableCollectionViewSampleTests */,
-				378A64CF2A245BFB001EFB0C /* TableCollectionViewSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,23 +156,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				378A64C02A245BFB001EFB0C /* LaunchScreen.storyboard in Resources */,
 				378A64BD2A245BFB001EFB0C /* Assets.xcassets in Resources */,
 				378A64BB2A245BF6001EFB0C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		378A64C42A245BFB001EFB0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		378A64CE2A245BFB001EFB0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,43 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				378A64B82A245BF6001EFB0C /* ViewController.swift in Sources */,
+				378A64ED2A252861001EFB0C /* SplitBannerCell.swift in Sources */,
+				378A64EB2A252836001EFB0C /* SingleBannerCell.swift in Sources */,
 				378A64B42A245BF6001EFB0C /* AppDelegate.swift in Sources */,
+				378A64F12A265430001EFB0C /* CollectionCellinTable.swift in Sources */,
+				378A64EF2A25287D001EFB0C /* CollectionsCell.swift in Sources */,
+				378A64F42A26864C001EFB0C /* Helper.swift in Sources */,
 				378A64B62A245BF6001EFB0C /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		378A64C22A245BFB001EFB0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				378A64CB2A245BFB001EFB0C /* TableCollectionViewSampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		378A64CC2A245BFB001EFB0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				378A64D72A245BFB001EFB0C /* TableCollectionViewSampleUITestsLaunchTests.swift in Sources */,
-				378A64D52A245BFB001EFB0C /* TableCollectionViewSampleUITests.swift in Sources */,
+				378A64E82A252022001EFB0C /* Datasource.swift in Sources */,
+				378A64E42A245C5B001EFB0C /* Main_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		378A64C82A245BFB001EFB0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 378A64AF2A245BF6001EFB0C /* TableCollectionViewSample */;
-			targetProxy = 378A64C72A245BFB001EFB0C /* PBXContainerItemProxy */;
-		};
-		378A64D22A245BFB001EFB0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 378A64AF2A245BF6001EFB0C /* TableCollectionViewSample */;
-			targetProxy = 378A64D12A245BFB001EFB0C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		378A64B92A245BF6001EFB0C /* Main.storyboard */ = {
@@ -303,14 +189,6 @@
 				378A64BA2A245BF6001EFB0C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		378A64BE2A245BFB001EFB0C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				378A64BF2A245BFB001EFB0C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -486,82 +364,6 @@
 			};
 			name = Release;
 		};
-		378A64DE2A245BFB001EFB0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2A624895QU;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TableCollectionViewSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableCollectionViewSample.app/TableCollectionViewSample";
-			};
-			name = Debug;
-		};
-		378A64DF2A245BFB001EFB0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2A624895QU;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TableCollectionViewSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableCollectionViewSample.app/TableCollectionViewSample";
-			};
-			name = Release;
-		};
-		378A64E12A245BFB001EFB0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2A624895QU;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TableCollectionViewSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TableCollectionViewSample;
-			};
-			name = Debug;
-		};
-		378A64E22A245BFB001EFB0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2A624895QU;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TableCollectionViewSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TableCollectionViewSample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,24 +381,6 @@
 			buildConfigurations = (
 				378A64DB2A245BFB001EFB0C /* Debug */,
 				378A64DC2A245BFB001EFB0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		378A64DD2A245BFB001EFB0C /* Build configuration list for PBXNativeTarget "TableCollectionViewSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				378A64DE2A245BFB001EFB0C /* Debug */,
-				378A64DF2A245BFB001EFB0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		378A64E02A245BFB001EFB0C /* Build configuration list for PBXNativeTarget "TableCollectionViewSampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				378A64E12A245BFB001EFB0C /* Debug */,
-				378A64E22A245BFB001EFB0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
